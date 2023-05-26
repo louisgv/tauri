@@ -1,5 +1,13 @@
 # Changelog
 
+## \[2.0.0-alpha.10]
+
+- [`e0f0dce2`](https://www.github.com/tauri-apps/tauri/commit/e0f0dce220730e2822fc202463aedf0166145de7)([#6442](https://www.github.com/tauri-apps/tauri/pull/6442)) Added the `window_effects` option when creating a window and `Window::set_effects` to change it at runtime.
+
+### bug
+
+- [`8e855765`](https://www.github.com/tauri-apps/tauri/commit/8e85576506f5dea066d7e9317dbcab3681baff73)([#6809](https://www.github.com/tauri-apps/tauri/pull/6809)) Fix default log path for linux and windows
+
 ## \[2.0.0-alpha.9]
 
 - [`256c30c7`](https://www.github.com/tauri-apps/tauri/commit/256c30c72b737e49ced0d6a6483910dc779fc185)([#6863](https://www.github.com/tauri-apps/tauri/pull/6863)) Enhance parsing of annotated Android plugin methods to support private functions.

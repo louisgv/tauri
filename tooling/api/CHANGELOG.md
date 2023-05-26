@@ -1,5 +1,9 @@
 # Changelog
 
+## \[2.0.0-alpha.5]
+
+- [`e0f0dce2`](https://www.github.com/tauri-apps/tauri/commit/e0f0dce220730e2822fc202463aedf0166145de7)([#6442](https://www.github.com/tauri-apps/tauri/pull/6442)) Added the `windowEffects` option when creating a window and `setWindowEffects` method to change it at runtime.
+
 ## \[2.0.0-alpha.4]
 
 - [`0ab5f40d`](https://www.github.com/tauri-apps/tauri/commit/0ab5f40d3a4207f20e4440587b41c4e78f91d233)([#6813](https://www.github.com/tauri-apps/tauri/pull/6813)) Add channel API for sending data across the IPC.
