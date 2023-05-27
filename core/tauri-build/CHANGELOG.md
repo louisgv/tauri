@@ -1,5 +1,12 @@
 # Changelog
 
+## \[1.3.1]
+
+### Enhancements
+
+- [`af937290`](https://www.github.com/tauri-apps/tauri/commit/af93729031565a69d1fde6cf16bea3b9b6e43a65)([#6676](https://www.github.com/tauri-apps/tauri/pull/6676)) On Windows, set `LegalCopyright` and `FileDescription` file properties on the executable from `tauri.bundle.copyright` and `tauri.bundle.shortDescription`,
+- [`d2710e9d`](https://www.github.com/tauri-apps/tauri/commit/d2710e9d2e8fd93975ef6494512370faa8cb3b7e)([#6944](https://www.github.com/tauri-apps/tauri/pull/6944)) Unpin `time`, `ignore`, `winnow`, and `ignore` crate versions. Developers now have to pin crates if needed themselves. A list of crates that need pinning to adhere to Tauri's MSRV will be visible in Tauri's GitHub workflow: https://github.com/tauri-apps/tauri/blob/dev/.github/workflows/test-core.yml#L85.
+
 ## \[1.3.0]
 
 - Bump minimum supported Rust version to 1.60.
